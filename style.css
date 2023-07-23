@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  background-color: #fafafa;
+}
+
+header {
+    margin-top: 3rem;
+}
+
+input {
+  margin: 0.2rem 0;
+}
+
+label {
+  margin: 0.2rem 0;
+}
+
+.main--logo img {
+    max-width: 100px;
+}
+
+.main--flexer {
+    display: flex;
+    gap: 4rem;
+    justify-content: center;
+}
+
+.my-container form {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 2rem 4rem 1rem 4rem;
+  margin: 0 auto;
+  max-width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-text {
+  background-color: red;
+  background-image: linear-gradient(to right, red, darkblue, rgb(101, 220, 220), rgb(36, 203, 48), purple);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+header img {
+  display: block;
+  margin: 0 auto;
+}
+
+.border-gradient form {
+  border-image-slice: 1;
+  border-width: 5px;
+}
+
+.border-gradient-green form {
+  border-image-source: linear-gradient(to left, #0fdbff, #1bff7a);
+}
+
+.btn--submit {
+  border-image-slice: 1;
+  border-width: 3.5px;
+  margin-top: 1rem;
+  color: #000;
+  padding: 0.2rem 1.2rem;
+  background-color: none;
+}
+
+.btn--submit {
+  border-image-source: linear-gradient(to left, #41ff1c, #1becff);
+}
+
+header h2 {
+  display: block;
+  text-align: center;
+}
+
+.flexer {
+  display: flex;
+  justify-content: space-between;
+}
