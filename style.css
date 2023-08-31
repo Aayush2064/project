@@ -87,3 +87,6 @@ header h2 {
   display: flex;
   justify-content: space-between;
 }
+a.default {
+  text-decoration: none;
+}
